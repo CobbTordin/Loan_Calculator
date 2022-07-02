@@ -10,6 +10,12 @@ if __name__ == '__main__':
     parser.add_argument('-a', '--payment', type=float, help='Monthly annuity payment amount')
     parser.add_argument('-i', '--interest', type=float, required=True, help='Loan interest rate')
 
+    
+# i = interest rate input as an integer then converted to a float for calculation
+# n = number of separate loan payments
+# a = value of each payment (only used for 'type=annuity')
+# p = loan principal
+    
 
 def i_calc(x):
     return x / 100 / 12
